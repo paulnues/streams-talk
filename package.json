@@ -1,0 +1,21 @@
+{
+  "name": "streams-talk",
+  "version": "1.0.0",
+  "description": "An example repo containing various stream implementations",
+  "main": "index.js",
+  "scripts": {
+    "go": "node index.js",
+    "lint": "eslint test/",
+    "test": "mocha --recursive --colors"
+  },
+  "author": "Paul Nues <paulnues@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "eslint": "^4.4.1",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
